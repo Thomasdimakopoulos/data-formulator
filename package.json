@@ -51,8 +51,8 @@
   },
   "scripts": {
     "lint": "eslint -c eslint.config.js src/**/*.{ts,tsx} --fix",
-    "start": "node init && vite",
-    "build": "node init && vite build"
+    "start": "vite",
+    "build": "vite build"
   },
   "browserslist": {
     "production": [
